@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO-LOGIN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .hero-text h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .hero-text a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+
+        .hero-text a:hover {
+            background: #388E3C;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature img {
+            width: 50px;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .video-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .video-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .video-section video {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            outline: none;
+        }
+
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .tu {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AUTO-LOGIN</h1>
+    <p>为您带来高效、便捷的登录体验</p>
+</header>
+
+<div class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>告别繁琐登录</h2>
+            <p>
+                这款插件能够自动识别图形验证码，并快速填写账号密码，让您的登录过程流畅无阻。不仅支持常用网站，还可根据需求进行个性化定制。</p>
+        </div>
+    </section>
+    <section class="tu">
+        <img src="img.png" alt="自动登录插件示意图">
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="img_2.png" alt="功能2图标">
+            <h3>快速填写</h3>
+            <p>一键完成账号密码填写，大幅提升登录效率。</p>
+        </div>
+        <div class="feature">
+            <img src="img_2.png" alt="功能3图标">
+            <h3>个性化定制</h3>
+            <p>根据用户需求量身定制，支持多种网站与场景。</p>
+        </div>
+        <div class="feature">
+            <img src="img_2.png" alt="功能4图标">
+            <h3>完全免费</h3>
+            <p>免费提供所有功能，帮助您节省宝贵时间。</p>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <h2>演示视频</h2>
+        <video src="1.mov" controls></video>
+    </section>
+</div>
+
+<footer>
+    <p>Copyright &copy; 2024 AUTO-LOGIN | <a href="https://github.com/daichongdev/autologin">GitHub</a></p>
+</footer>
+
+</body>
+</html>
